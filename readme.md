@@ -1,5 +1,6 @@
 # A repository for me to play around with terraform
 
+the current confuguration of this repo:
 
 ```terraform
 terraform {
@@ -19,7 +20,7 @@ resource "github_repository" "terraform-gh-test" {
     name            = "terraform-gh-test"
     description     = "a test repo to learn terraform's github provider."
 
-    visibility          = "private"
+    visibility          = "public"
     has_wiki            = false
     has_issues          = false
     has_projects        = false
